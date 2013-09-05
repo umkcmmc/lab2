@@ -1,0 +1,14 @@
+<h1>CS5590Vc_Lab1</h1>
+<p>Get the Route from Kansas to any other City</p>
+<form name="input" method="post">
+Destination <input type="text" name="loc">
+<input type="submit" value="Submit">
+</form>
+<title>Google Maps API v3 Example: Directions Simple</title>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+    <!-- Copy the javascript code here if you wish to try this code. -->
+</script>
+<body onload="initialize()">
+<div id="map_canvas" style="height: 480px; width: 480px"></div>
+</body>
